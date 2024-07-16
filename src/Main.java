@@ -8,13 +8,12 @@ public class Main {
       loginPassword.inputCheck("Smitt", "qwertн", "qwerty");
     } catch (WrongLoginException | WrongPasswordException e) {
       throw new RuntimeException(e);
-    }
-finally {
+    } finally {
       System.out.println("Код завершён");
     }
   }
 
 
-  }
+}
 
 
